@@ -1,0 +1,101 @@
+
+body{
+    background-color: #0C5388;
+    font-family: sans-serif;
+}
+header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.08);;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+
+}
+#search{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#getLocation{
+    width: 180px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    cursor: pointer;
+}
+#getLocation:hover{
+    background-color: teal ;
+}
+#submit{
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: teal ;
+}
+
+
+/* //-------------------------------------------------tell image -------------------------------------------- */
+#tellimage{
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+
+}
+#tellimage img{
+    width: 100%;
+    height: 400px;
+}
+
+
+/* --------------------------------------------------container ------------------------------------------------ */
+
+#container{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+#dataDisplay{
+    width: 50%;
+    height: 500px;
+    border-radius: 12px;
+    padding: 20px;
+    background-image: url("https://assets.msn.com/weathermapdata/1/static/background/v2.0/compactads3/Sunny.png");
+    background-repeat: no-repeat;
+}
+
+#databox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+#temp-box{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    width: 150px;
+    height: 50px;
+    justify-content: space-evenly;
+    /* border: 1px solid white; */
+}
